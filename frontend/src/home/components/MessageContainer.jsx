@@ -48,7 +48,6 @@ const MessageContainer = ({ onBackUser }) => {
             } catch (error) {
                 setLoading(false);
                 console.log(error);
-
             }
         }
 
@@ -147,7 +146,7 @@ const MessageContainer = ({ onBackUser }) => {
               <button type='submit'>
                 {sending ? <div className='loading loading-spinner'></div>:
                 <IoSend size={25}
-                className='text-sky-700 cursor-pointer rounded-full bg-gray-800 w-10 h-auto p-1'/>
+                className='text-sky-500 cursor-pointer rounded-full bg-gray-800 w-10 h-auto p-1'/>
                 }
               </button>
             </div>
